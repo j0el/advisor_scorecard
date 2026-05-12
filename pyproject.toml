@@ -1,0 +1,30 @@
+[project]
+name = "advisor_scorecard"
+version = "0.3.0"
+description = "Read-only portfolio scorecard for advisor evaluation"
+requires-python = ">=3.11"
+dependencies = [
+    "pandas>=2.2",
+    "numpy>=1.26",
+    "pyyaml>=6.0",
+    "rich>=13.7",
+    "python-dotenv>=1.0",
+    "yfinance>=0.2.40",
+    "matplotlib>=3.8",
+    "httpx>=0.27",
+    "schwab-py>=1.5.0",
+    "plotly>=6.7.0",
+    "reportlab>=4.2",
+    "scipy>=1.17.1",
+]
+
+[project.scripts]
+advisor_scorecard = "advisor_scorecard.main:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["advisor_scorecard*"]
+exclude = ["data*", "reports*"]

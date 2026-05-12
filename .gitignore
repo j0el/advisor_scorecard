@@ -216,3 +216,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+.venv/
+__pycache__/
+*.pyc
+.env
+data/schwab_token.json
+data/*.json
+reports/
+.DS_Store

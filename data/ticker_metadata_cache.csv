@@ -1,0 +1,131 @@
+symbol,company_name,security_type,quote_type,sector,industry,country,exchange,fund_category,fund_family,currency,metadata_source,lookup_status
+AAOI,"Applied Optoelectronics, Inc.",EQUITY,EQUITY,Technology,Communication Equipment,United States,NGM,,,USD,yfinance,ok
+AAPL,Apple Inc.,EQUITY,EQUITY,Technology,Consumer Electronics,United States,NMS,,,USD,yfinance,ok
+ABT,Abbott Laboratories,EQUITY,EQUITY,Healthcare,Medical Devices,United States,NYQ,,,USD,yfinance,ok
+ADP,"Automatic Data Processing, Inc.",EQUITY,EQUITY,Technology,Software - Application,United States,NMS,,,USD,yfinance,ok
+AGX,"Argan, Inc.",EQUITY,EQUITY,Industrials,Engineering & Construction,United States,NYQ,,,USD,yfinance,ok
+AMAT,"Applied Materials, Inc.",EQUITY,EQUITY,Technology,Semiconductor Equipment & Materials,United States,NMS,,,USD,yfinance,ok
+AMD,"Advanced Micro Devices, Inc.",EQUITY,EQUITY,Technology,Semiconductors,United States,NMS,,,USD,yfinance,ok
+AMSC,American Superconductor Corporation,EQUITY,EQUITY,Industrials,Specialty Industrial Machinery,United States,NMS,,,USD,yfinance,ok
+AMZN,"Amazon.com, Inc.",EQUITY,EQUITY,Consumer Cyclical,Internet Retail,United States,NMS,,,USD,yfinance,ok
+APP,AppLovin Corporation,EQUITY,EQUITY,Communication Services,Advertising Agencies,United States,NMS,,,USD,yfinance,ok
+ARCC,Ares Capital Corporation,EQUITY,EQUITY,Financial Services,Asset Management,United States,NMS,,,USD,yfinance,ok
+ASST,"Strive Asset Management, LLC",EQUITY,EQUITY,Financial Services,Asset Management,United States,NGM,,,USD,yfinance,ok
+ATI,ATI Inc.,EQUITY,EQUITY,Industrials,Metal Fabrication,United States,NYQ,,,USD,yfinance,ok
+AVGO,Broadcom Inc.,EQUITY,EQUITY,Technology,Semiconductors,United States,NMS,,,USD,yfinance,ok
+BBH,VanEck Biotech ETF,ETF,ETF,,,,NGM,Health,VanEck,USD,yfinance,ok
+BHE,"Benchmark Electronics, Inc.",EQUITY,EQUITY,Technology,Electronic Components,United States,NYQ,,,USD,yfinance,ok
+BIPC,Brookfield Infrastructure Corporation,EQUITY,EQUITY,Utilities,Utilities - Regulated Gas,United States,NYQ,,,USD,yfinance,ok
+BLDR,"Builders FirstSource, Inc.",EQUITY,EQUITY,Industrials,Building Products & Equipment,United States,NYQ,,,USD,yfinance,ok
+BLK,"BlackRock, Inc.",EQUITY,EQUITY,Financial Services,Asset Management,United States,NYQ,,,USD,yfinance,ok
+BMY,Bristol-Myers Squibb Company,EQUITY,EQUITY,Healthcare,Drug Manufacturers - General,United States,NYQ,,,USD,yfinance,ok
+BRK.B,BRK.B,EQUITY,EQUITY,,,,,,,,yfinance,ok
+BX,Blackstone Inc.,EQUITY,EQUITY,Financial Services,Asset Management,United States,NYQ,,,USD,yfinance,ok
+CAH,"Cardinal Health, Inc.",EQUITY,EQUITY,Healthcare,Medical Distribution,United States,NYQ,,,USD,yfinance,ok
+CAT,Caterpillar Inc.,EQUITY,EQUITY,Industrials,Farm & Heavy Construction Machinery,United States,NYQ,,,USD,yfinance,ok
+CIEN,Ciena Corporation,EQUITY,EQUITY,Technology,Communication Equipment,United States,NYQ,,,USD,yfinance,ok
+CLH,"Clean Harbors, Inc.",EQUITY,EQUITY,Industrials,Waste Management,United States,NYQ,,,USD,yfinance,ok
+CLS,Celestica Inc.,EQUITY,EQUITY,Technology,Electronic Components,Canada,NYQ,,,USD,yfinance,ok
+CLX,The Clorox Company,EQUITY,EQUITY,Consumer Defensive,Household & Personal Products,United States,NYQ,,,USD,yfinance,ok
+CMI,Cummins Inc.,EQUITY,EQUITY,Industrials,Specialty Industrial Machinery,United States,NYQ,,,USD,yfinance,ok
+COHR,Coherent Corp.,EQUITY,EQUITY,Technology,Scientific & Technical Instruments,United States,NYQ,,,USD,yfinance,ok
+CRDO,Credo Technology Group Holding Ltd,EQUITY,EQUITY,Technology,Semiconductors,Cayman Islands,NMS,,,USD,yfinance,ok
+CTO,"CTO Realty Growth, Inc.",EQUITY,EQUITY,Real Estate,REIT - Diversified,United States,NYQ,,,USD,yfinance,ok
+CTRE,"CareTrust REIT, Inc.",EQUITY,EQUITY,Real Estate,REIT - Healthcare Facilities,United States,NYQ,,,USD,yfinance,ok
+D,"Dominion Energy, Inc.",EQUITY,EQUITY,Utilities,Utilities - Regulated Electric,United States,NYQ,,,USD,yfinance,ok
+DELL,Dell Technologies Inc.,EQUITY,EQUITY,Technology,Computer Hardware,United States,NYQ,,,USD,yfinance,ok
+DKS,"DICK'S Sporting Goods, Inc.",EQUITY,EQUITY,Consumer Cyclical,Specialty Retail,United States,NYQ,,,USD,yfinance,ok
+DOCU,"DocuSign, Inc.",EQUITY,EQUITY,Technology,Software - Application,United States,NMS,,,USD,yfinance,ok
+DOW,Dow Inc.,EQUITY,EQUITY,Basic Materials,Chemicals,United States,NYQ,,,USD,yfinance,ok
+DXPE,"DXP Enterprises, Inc.",EQUITY,EQUITY,Industrials,Industrial Distribution,United States,NMS,,,USD,yfinance,ok
+DY,"Dycom Industries, Inc.",EQUITY,EQUITY,Industrials,Engineering & Construction,United States,NYQ,,,USD,yfinance,ok
+EPRT,"Essential Properties Realty Trust, Inc.",EQUITY,EQUITY,Real Estate,REIT - Retail,United States,NYQ,,,USD,yfinance,ok
+ERO,Ero Copper Corp.,EQUITY,EQUITY,Basic Materials,Copper,Canada,NYQ,,,USD,yfinance,ok
+EXPE,"Expedia Group, Inc.",EQUITY,EQUITY,Consumer Cyclical,Travel Services,United States,NMS,,,USD,yfinance,ok
+FFIV,"F5, Inc.",EQUITY,EQUITY,Technology,Software - Infrastructure,United States,NMS,,,USD,yfinance,ok
+FN,Fabrinet,EQUITY,EQUITY,Technology,Electronic Components,Cayman Islands,NYQ,,,USD,yfinance,ok
+FRSH,Freshworks Inc.,EQUITY,EQUITY,Technology,Software - Application,United States,NMS,,,USD,yfinance,ok
+FSK,FS KKR Capital Corp.,EQUITY,EQUITY,Financial Services,Asset Management,United States,NYQ,,,USD,yfinance,ok
+GBDC,"Golub Capital BDC, Inc.",EQUITY,EQUITY,Financial Services,Asset Management,United States,NMS,,,USD,yfinance,ok
+GBX,"The Greenbrier Companies, Inc.",EQUITY,EQUITY,Industrials,Railroads,United States,NYQ,,,USD,yfinance,ok
+GLW,Corning Incorporated,EQUITY,EQUITY,Technology,Electronic Components,United States,NYQ,,,USD,yfinance,ok
+GOOGL,Alphabet Inc.,EQUITY,EQUITY,Communication Services,Internet Content & Information,United States,NMS,,,USD,yfinance,ok
+GTY,Getty Realty Corp.,EQUITY,EQUITY,Real Estate,REIT - Retail,United States,NYQ,,,USD,yfinance,ok
+HASI,"HA Sustainable Infrastructure Capital, Inc.",EQUITY,EQUITY,Financial Services,Asset Management,United States,NYQ,,,USD,yfinance,ok
+HD,"The Home Depot, Inc.",EQUITY,EQUITY,Consumer Cyclical,Home Improvement Retail,United States,NYQ,,,USD,yfinance,ok
+HTGC,"Hercules Capital, Inc.",EQUITY,EQUITY,Financial Services,Asset Management,United States,NYQ,,,USD,yfinance,ok
+HY,"Hyster-Yale, Inc.",EQUITY,EQUITY,Industrials,Farm & Heavy Construction Machinery,United States,NYQ,,,USD,yfinance,ok
+IESC,"IES Holdings, Inc.",EQUITY,EQUITY,Industrials,Engineering & Construction,United States,NGM,,,USD,yfinance,ok
+INGR,Ingredion Incorporated,EQUITY,EQUITY,Consumer Defensive,Packaged Foods,United States,NYQ,,,USD,yfinance,ok
+ISRG,"Intuitive Surgical, Inc.",EQUITY,EQUITY,Healthcare,Medical Instruments & Supplies,United States,NMS,,,USD,yfinance,ok
+IUSV,iShares Core S&P U.S. Value ETF,ETF,ETF,,,,NGM,Large Value,iShares,USD,yfinance,ok
+JNJ,Johnson & Johnson,EQUITY,EQUITY,Healthcare,Drug Manufacturers - General,United States,NYQ,,,USD,yfinance,ok
+KHC,The Kraft Heinz Company,EQUITY,EQUITY,Consumer Defensive,Packaged Foods,United States,NMS,,,USD,yfinance,ok
+KTOS,"Kratos Defense & Security Solutions, Inc.",EQUITY,EQUITY,Industrials,Aerospace & Defense,United States,NMS,,,USD,yfinance,ok
+LDOS,"Leidos Holdings, Inc.",EQUITY,EQUITY,Technology,Information Technology Services,United States,NYQ,,,USD,yfinance,ok
+LHX,"L3Harris Technologies, Inc.",EQUITY,EQUITY,Industrials,Aerospace & Defense,United States,NYQ,,,USD,yfinance,ok
+LMT,Lockheed Martin Corporation,EQUITY,EQUITY,Industrials,Aerospace & Defense,United States,NYQ,,,USD,yfinance,ok
+LOGI,Logitech International S.A.,EQUITY,EQUITY,Technology,Computer Hardware,Switzerland,NMS,,,USD,yfinance,ok
+META,"Meta Platforms, Inc.",EQUITY,EQUITY,Communication Services,Internet Content & Information,United States,NMS,,,USD,yfinance,ok
+MHO,"M/I Homes, Inc.",EQUITY,EQUITY,Consumer Cyclical,Residential Construction,United States,NYQ,,,USD,yfinance,ok
+MMM,3M Company,EQUITY,EQUITY,Industrials,Conglomerates,United States,NYQ,,,USD,yfinance,ok
+MOD,Modine Manufacturing Company,EQUITY,EQUITY,Consumer Cyclical,Auto Parts,United States,NYQ,,,USD,yfinance,ok
+MRK,"Merck & Co., Inc.",EQUITY,EQUITY,Healthcare,Drug Manufacturers - General,United States,NYQ,,,USD,yfinance,ok
+MRVL,"Marvell Technology, Inc.",EQUITY,EQUITY,Technology,Semiconductors,United States,NMS,,,USD,yfinance,ok
+MS,Morgan Stanley,EQUITY,EQUITY,Financial Services,Capital Markets,United States,NYQ,,,USD,yfinance,ok
+MSFT,Microsoft Corporation,EQUITY,EQUITY,Technology,Software - Infrastructure,United States,NMS,,,USD,yfinance,ok
+MSTR,Strategy Inc,EQUITY,EQUITY,Technology,Software - Application,United States,NMS,,,USD,yfinance,ok
+MTZ,"MasTec, Inc.",EQUITY,EQUITY,Industrials,Engineering & Construction,United States,NYQ,,,USD,yfinance,ok
+NEE,"NextEra Energy, Inc.",EQUITY,EQUITY,Utilities,Utilities - Regulated Electric,United States,NYQ,,,USD,yfinance,ok
+NET,"Cloudflare, Inc.",EQUITY,EQUITY,Technology,Software - Infrastructure,United States,NYQ,,,USD,yfinance,ok
+NVDA,NVIDIA Corporation,EQUITY,EQUITY,Technology,Semiconductors,United States,NMS,,,USD,yfinance,ok
+NVMI,Nova Ltd.,EQUITY,EQUITY,Technology,Semiconductor Equipment & Materials,Israel,NMS,,,USD,yfinance,ok
+NXPI,NXP Semiconductors N.V.,EQUITY,EQUITY,Technology,Semiconductors,Netherlands,NMS,,,USD,yfinance,ok
+O,Realty Income Corporation,EQUITY,EQUITY,Real Estate,REIT - Retail,United States,NYQ,,,USD,yfinance,ok
+OBDC,Blue Owl Capital Corporation,EQUITY,EQUITY,Financial Services,Asset Management,United States,NYQ,,,USD,yfinance,ok
+OHI,"Omega Healthcare Investors, Inc.",EQUITY,EQUITY,Real Estate,REIT - Healthcare Facilities,United States,NYQ,,,USD,yfinance,ok
+OKTA,"Okta, Inc.",EQUITY,EQUITY,Technology,Software - Infrastructure,United States,NMS,,,USD,yfinance,ok
+OSIS,"OSI Systems, Inc.",EQUITY,EQUITY,Technology,Electronic Components,United States,NMS,,,USD,yfinance,ok
+P,"Everpure, Inc.",EQUITY,EQUITY,Technology,Computer Hardware,United States,NYQ,,,USD,yfinance,ok
+PANW,"Palo Alto Networks, Inc.",EQUITY,EQUITY,Technology,Software - Infrastructure,United States,NMS,,,USD,yfinance,ok
+PATH,"UiPath, Inc.",EQUITY,EQUITY,Technology,Software - Infrastructure,United States,NYQ,,,USD,yfinance,ok
+PENG,"Penguin Solutions, Inc.",EQUITY,EQUITY,Technology,Information Technology Services,United States,NMS,,,USD,yfinance,ok
+PINE,"Alpine Income Property Trust, Inc.",EQUITY,EQUITY,Real Estate,REIT - Retail,United States,NYQ,,,USD,yfinance,ok
+PNNT,PennantPark Investment Corporation,EQUITY,EQUITY,Financial Services,Asset Management,United States,NYQ,,,USD,yfinance,ok
+POWL,"Powell Industries, Inc.",EQUITY,EQUITY,Industrials,Electrical Equipment & Parts,United States,NMS,,,USD,yfinance,ok
+PPIH,"Perma-Pipe International Holdings, Inc.",EQUITY,EQUITY,Industrials,Building Products & Equipment,United States,NGM,,,USD,yfinance,ok
+PRLB,"Proto Labs, Inc.",EQUITY,EQUITY,Industrials,Metal Fabrication,United States,NYQ,,,USD,yfinance,ok
+PWR,"Quanta Services, Inc.",EQUITY,EQUITY,Industrials,Engineering & Construction,United States,NYQ,,,USD,yfinance,ok
+PYPL,"PayPal Holdings, Inc.",EQUITY,EQUITY,Financial Services,Credit Services,United States,NMS,,,USD,yfinance,ok
+QCOM,QUALCOMM Incorporated,EQUITY,EQUITY,Technology,Semiconductors,United States,NMS,,,USD,yfinance,ok
+QQQ,Invesco QQQ Trust,ETF,ETF,,,,NGM,Large Growth,Invesco,USD,yfinance,ok
+R,"Ryder System, Inc.",EQUITY,EQUITY,Industrials,Rental & Leasing Services,United States,NYQ,,,USD,yfinance,ok
+REXR,"Rexford Industrial Realty, Inc.",EQUITY,EQUITY,Real Estate,REIT - Industrial,United States,NYQ,,,USD,yfinance,ok
+RL,Ralph Lauren Corporation,EQUITY,EQUITY,Consumer Cyclical,Apparel Manufacturing,United States,NYQ,,,USD,yfinance,ok
+RSI,"Rush Street Interactive, Inc.",EQUITY,EQUITY,Consumer Cyclical,Gambling,United States,NYQ,,,USD,yfinance,ok
+SHAK,Shake Shack Inc.,EQUITY,EQUITY,Consumer Cyclical,Restaurants,United States,NYQ,,,USD,yfinance,ok
+SHOP,Shopify Inc.,EQUITY,EQUITY,Technology,Software - Application,Canada,NMS,,,USD,yfinance,ok
+SKT,Tanger Inc.,EQUITY,EQUITY,Real Estate,REIT - Retail,United States,NYQ,,,USD,yfinance,ok
+SNPS,"Synopsys, Inc.",EQUITY,EQUITY,Technology,Software - Infrastructure,United States,NMS,,,USD,yfinance,ok
+SNX,TD SYNNEX Corporation,EQUITY,EQUITY,Technology,Electronics & Computer Distribution,United States,NYQ,,,USD,yfinance,ok
+SPG,"Simon Property Group, Inc.",EQUITY,EQUITY,Real Estate,REIT - Retail,United States,NYQ,,,USD,yfinance,ok
+SPY,State Street SPDR S&P 500 ETF Trust,ETF,ETF,,,,PCX,Large Blend,State Street Investment Management,USD,yfinance,ok
+SSNC,"SS&C Technologies Holdings, Inc.",EQUITY,EQUITY,Technology,Software - Application,United States,NMS,,,USD,yfinance,ok
+STAG,"STAG Industrial, Inc.",EQUITY,EQUITY,Real Estate,REIT - Industrial,United States,NYQ,,,USD,yfinance,ok
+STRL,"Sterling Infrastructure, Inc.",EQUITY,EQUITY,Industrials,Engineering & Construction,United States,NMS,,,USD,yfinance,ok
+STWD,"Starwood Property Trust, Inc.",EQUITY,EQUITY,Real Estate,REIT - Mortgage,United States,NYQ,,,USD,yfinance,ok
+TPR,"Tapestry, Inc.",EQUITY,EQUITY,Consumer Cyclical,Luxury Goods,United States,NYQ,,,USD,yfinance,ok
+TSCO,Tractor Supply Company,EQUITY,EQUITY,Consumer Cyclical,Specialty Retail,United States,NMS,,,USD,yfinance,ok
+TSLX,"Sixth Street Specialty Lending, Inc.",EQUITY,EQUITY,Financial Services,Asset Management,United States,NYQ,,,USD,yfinance,ok
+TSM,Taiwan Semiconductor Manufacturing Company Limited,EQUITY,EQUITY,Technology,Semiconductors,Taiwan,NYQ,,,USD,yfinance,ok
+TWLO,Twilio Inc.,EQUITY,EQUITY,Technology,Software - Infrastructure,United States,NYQ,,,USD,yfinance,ok
+TXN,Texas Instruments Incorporated,EQUITY,EQUITY,Technology,Semiconductors,United States,NMS,,,USD,yfinance,ok
+UNP,Union Pacific Corporation,EQUITY,EQUITY,Industrials,Railroads,United States,NYQ,,,USD,yfinance,ok
+UPS,"United Parcel Service, Inc.",EQUITY,EQUITY,Industrials,Integrated Freight & Logistics,United States,NYQ,,,USD,yfinance,ok
+URBN,"Urban Outfitters, Inc.",EQUITY,EQUITY,Consumer Cyclical,Apparel Retail,United States,NMS,,,USD,yfinance,ok
+VBK,Vanguard Small-Cap Growth Index Fund ETF Shares,ETF,ETF,,,,PCX,Small Growth,Vanguard,USD,yfinance,ok
+VICI,VICI Properties Inc.,EQUITY,EQUITY,Real Estate,REIT - Diversified,United States,NYQ,,,USD,yfinance,ok
+VISN,"Vistance Networks, Inc.",EQUITY,EQUITY,Technology,Communication Equipment,United States,NMS,,,USD,yfinance,ok
+VZ,Verizon Communications Inc.,EQUITY,EQUITY,Communication Services,Telecom Services,United States,NYQ,,,USD,yfinance,ok
+WLDN,"Willdan Group, Inc.",EQUITY,EQUITY,Industrials,Engineering & Construction,United States,NGM,,,USD,yfinance,ok
+XHS,State Street SPDR S&P Health Care Services ETF,ETF,ETF,,,,PCX,Health,State Street Investment Management,USD,yfinance,ok

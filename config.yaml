@@ -1,0 +1,18 @@
+# Starter target allocation. Update this to match your advisor's stated target.
+target_allocation:
+  us_stock: 0.55
+  intl_stock: 0.20
+  bond: 0.20
+  cash: 0.05
+  other: 0.00
+
+benchmark:
+  us_stock: VTI
+  intl_stock: VXUS
+  bond: BND
+  cash: SGOV
+  other: VNQ
+
+concentration_limits:
+  max_single_holding_pct: 0.10
+  max_sector_pct: 0.30
