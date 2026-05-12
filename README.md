@@ -1,106 +1,75 @@
-# Advisor Scorecard Monthly Review
+# Portfolio Forward Test Tool
 
-Read-only monthly portfolio review tool for Schwab holdings. The main goal is to compare the current portfolio mix against standard benchmark portfolios using normalized percentages, risk metrics, and charts that can be shared without exposing dollar amounts.
+This companion tool saves your current portfolio weights and the optimizer's Max Sharpe weights, then compares their actual forward return later.
 
-## What it produces
+It uses normalized weights only and does not use dollar amounts.
 
-The monthly review creates both HTML and PDF reports:
+## Install
 
-- `reports/monthly_review/monthly_review_report.pdf`
-- `reports/monthly_review/monthly_review_report.html`
-
-The PDF includes:
-
-- headline interpretation
-- key risk/opportunity metrics
-- Sharpe and Sortino ratios
-- max drawdown
-- beta, tracking error, information ratio
-- upside/downside capture
-- portfolio asset-class pie chart
-- portfolio sector pie chart
-- normalized growth vs benchmarks
-- drawdown chart
-- risk vs return chart
-- efficient-frontier style view
-- Bollinger Bands on normalized portfolio value
-- rolling 12-month Sharpe
-- rolling 3-month volatility
-- top holdings by normalized percentage
-- benchmark definitions
-
-Dollar amounts are intentionally omitted from the monthly report outputs.
-
-## Setup on a new computer
-
-Install `uv` first:
+From inside your `advisor_scorecard` folder:
 
 ```bash
-brew install uv
+unzip -o ~/Downloads/portfolio_forward_test_tool.zip
+chmod +x install_forward_test_tool.sh
+./install_forward_test_tool.sh
 ```
 
-Create a project folder and unzip this distribution inside it:
+## Start a forward test
 
-```bash
-mkdir -p ~/Documents/advisor_scorecard
-cd ~/Documents/advisor_scorecard
-unzip ~/Downloads/advisor_scorecard_monthly_report_clean.zip
-```
-
-Create your private environment file:
-
-```bash
-cp .env.example .env
-open -a TextEdit .env
-```
-
-Fill in your Schwab credentials:
-
-```text
-SCHWAB_API_KEY=your_app_key
-SCHWAB_APP_SECRET=your_app_secret
-SCHWAB_CALLBACK_URL=https://127.0.0.1:8182
-SCHWAB_TOKEN_PATH=./data/schwab_token.json
-ADVISOR_FEE_BPS=100
-```
-
-Install dependencies:
-
-```bash
-uv sync
-```
-
-## Monthly workflow
-
-Pull fresh Schwab holdings:
+Run your usual monthly workflow first:
 
 ```bash
 uv run advisor-scorecard snapshot
-```
 
-Generate the monthly report:
-
-```bash
 uv run advisor-scorecard monthly-review \
   --holdings data/schwab_holdings.csv \
   --years 3 \
   --risk-free-rate 0.04
+
+uv run python3 portfolio_forecast_optimizer.py
 ```
 
-Open the PDF:
+Then save the forward-test weights:
 
 ```bash
-open reports/monthly_review/monthly_review_report.pdf
+uv run python3 portfolio_forward_test.py start
 ```
 
-## Private files
+This creates:
 
-Do not share or commit these files:
+```text
+reports/forward_tests/YYYY-MM-DD/
+  forward_test_start.json
+  current_portfolio_weights.csv
+  max_sharpe_weights.csv
+```
 
-- `.env`
-- `data/schwab_token.json`
-- `data/schwab_holdings.csv`
-- `data/transaction_exports/`
-- `reports/` if you consider ticker weights private
+## Compare later
 
-The program is read-only. It does not place trades.
+One month later:
+
+```bash
+uv run python3 portfolio_forward_test.py compare --latest
+```
+
+Or specify a test date:
+
+```bash
+uv run python3 portfolio_forward_test.py compare --test-date YYYY-MM-DD
+```
+
+Outputs:
+
+```text
+reports/forward_tests/YYYY-MM-DD/
+  forward_test_metrics.csv
+  forward_test_contributions.csv
+  forward_test_daily_indexes.csv
+  forward_test_comparison.html
+  forward_test_comparison.pdf
+  charts/
+```
+
+## Notes
+
+This is a forward test, not a prediction. It answers: "From the day we saved the weights, which portfolio performed better over the elapsed period?"

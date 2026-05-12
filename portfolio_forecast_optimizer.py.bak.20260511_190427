@@ -13,16 +13,6 @@ and charts using normalized weights only. No dollar values are written.
 """
 from __future__ import annotations
 
-# Suppress a harmless pandas warning caused by iterative price-table assembly.
-# The report output is unaffected; this only keeps the terminal clean.
-import warnings
-try:
-    from pandas.errors import PerformanceWarning
-    warnings.simplefilter("ignore", PerformanceWarning)
-except Exception:
-    pass
-
-
 import argparse
 import math
 import os
